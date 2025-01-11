@@ -166,3 +166,68 @@ nav button{
     color: rgba(14, 14, 14, 0.6);
     font-weight: ;
 }
+
+/* section 3 table design */
+#section-3{
+    margin-top: 80px;
+}
+#section-3 h1{
+    display: ;
+    font-size: 40px;
+    width: 600;
+    margin-bottom: 24px;
+}
+#section-3 h2{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#ques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* section 3 not finish yeat */
+/* section 4 */
+.section-4{
+    margin-top: 80px;
+}
+.section-4 h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.news-port{
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+    padding: 48px;
+}
+.stalite{
+    border-radius: 24px;
+
+}
+.news-port h2{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+#date{
+    margin: 12px 0;
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-port button{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 13px 26px;
+    margin-top: 32px;
+    color: white;
+}
