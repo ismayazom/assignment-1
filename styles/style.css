@@ -6,6 +6,12 @@
     padding: 0;
     font-family: "Work Sans", serif;
 }
+.card-discription{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
 body{padding: 0 160px;}
 
@@ -79,9 +85,84 @@ nav button{
     box-shadow: 0 0 15px #a3a1a1;
    
 }
-.card-1-content{
-    margin-top: 24px;
+/* section 2 the vision for future */
+
+.section-2-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section-2-discription{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.card-2-contener{
+    margin-bottom: 32px;
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    gap: 24px;
+}
+#digital-trans{
+    background-color:rgba(198, 228, 214, 1);
+    padding: 32px;
+    border-radius: 16px;
+}
+#digital-trans button{
+    border: 0;
+    color: white;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+}
+#green-e{ 
+    background-color:rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+#green-e button{
+    border: 0;
+    color: white;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+
+}
+#modern-infest{
+    background-color:rgba(247, 235, 207, 1);
+    padding: 32px;
+    border-radius: 16px;
+}
+#modern-infest button{
+    border: 0;
+    color: white;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+
+}
+.dr-yunus{
+    box-shadow: 0 0 30px rgb(207, 198, 198);
+    padding: 28px 24px;
+    border: 10px;
+}
+.dr-yunus #spaech{
+    padding-top: 22px;
+    background-image: url("../image/quote-bg.png");
+    background-repeat: no-repeat;
+    color: rgba(14, 14, 14, 0.9);
+    margin-bottom: 12px;
+}
+
+.dr-yunus h3{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+#designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: ;
 }
