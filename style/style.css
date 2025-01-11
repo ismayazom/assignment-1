@@ -17,7 +17,7 @@ body{background-color: rgb(227, 227, 230);}
 
 
 /* header seccion */
-
+header{margin: 0 160px;}
 nav{
     padding: 0 160px;
     display: flex;
