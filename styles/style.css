@@ -58,3 +58,30 @@ nav button{
     border-radius: 8px;
     padding: 17px 38px;
 }
+/* sectoin 1 the card section */
+.section-1{
+    margin: 80px 0;
+}
+.section-1 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-1-contener{
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-1{
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px #a3a1a1;
+   
+}
+.card-1-content{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
